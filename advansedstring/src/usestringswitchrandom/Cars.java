@@ -1,7 +1,7 @@
 package usestringswitchrandom;
 
 public class Cars {
-	public String carName;
+	public EnumCarsNames carName;
 	public long carColor = 0x000000;
 	
 	
@@ -10,12 +10,12 @@ public class Cars {
 	}
 	
 	
-	public String getCarName() {
+	public EnumCarsNames getCarName() {
 		return carName;
 	}
 
 
-	public void setCarName(String carName) {
+	public void setCarName(EnumCarsNames carName) {
 		this.carName = carName;
 	}
 
