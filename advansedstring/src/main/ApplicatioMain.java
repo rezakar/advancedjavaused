@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import usestringswitchrandom.Cars;
 
@@ -23,6 +24,24 @@ public class ApplicatioMain {
 		list.add(c3);
 		for (Cars cars : list) {
 			System.out.println("car name :"+cars.carName+" "+" car color:"+cars.carName);
+		}
+		Random generator = new Random();
+		int index = generator.nextInt(3);
+		System.out.println("random value :" + index);
+		Cars c = list.get(index);
+		
+		switch(c.carName) {
+		case "Benz":
+			System.out.println("it is German Car!");
+			break;
+		case "BMW":
+			System.out.println("it is Bavaria Car!");
+			break;
+		case "Hunda":
+			System.out.println("it is Japonese Car!");
+			break;
+			default:
+				System.out.println("I don't know where it's from!");
 		}
 
 	}
