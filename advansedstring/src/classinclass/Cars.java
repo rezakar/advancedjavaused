@@ -1,8 +1,10 @@
-package usestringswitchrandom;
+package classinclass;
+
+import classinclass.EnumCarsColors;
 
 public class Cars {
 	public EnumCarsNames carName;
-	public long carColor;
+	public EnumCarsColors carColor;
 	
 	
 	public Cars() {
@@ -20,12 +22,12 @@ public class Cars {
 	}
 
 
-	public long getCarColor() {
+	public EnumCarsColors getCarColor() {
 		return carColor;
 	}
 
 
-	public void setCarColor(long carColor) {
+	public void setCarColor(EnumCarsColors carColor) {
 		this.carColor = carColor;
 	}
 

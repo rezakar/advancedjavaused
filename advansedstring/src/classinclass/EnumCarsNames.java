@@ -1,4 +1,4 @@
-package usestringswitchrandom;
+package classinclass;
 
 public enum EnumCarsNames {
 	BENZ ("benz"), BMW("bmv") , HUNDA("hunda") , TOYOTA("toyota") , JEEP("jeep");
