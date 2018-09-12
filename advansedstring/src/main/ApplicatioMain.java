@@ -1,8 +1,6 @@
 package main;
 
-import classinclass.UseClassInClass;
-import usestringswitchrandom.UseEnumCarsNames;
-import usestringswitchrandom.UseRandom;
+import usehashset.UseHashSet;
 
 public class ApplicatioMain {
 
@@ -10,7 +8,8 @@ public class ApplicatioMain {
 		// TODO Auto-generated method stub
 		/*UseRandom.useRandom();*/
 		/*UseEnumCarsNames.useEnumCars();*/
-		UseClassInClass.getClassInClass();
+		/*UseClassInClass.getClassInClass();*/
+		UseHashSet.usehashSet();
 	}
 
 }
