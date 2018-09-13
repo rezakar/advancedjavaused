@@ -1,6 +1,7 @@
 package main;
 
 
+import uselinkedlist.UseLinkedList;
 import usingtreeset.UseTreeSet;
 
 public class ApplicatioMain {
@@ -11,7 +12,8 @@ public class ApplicatioMain {
 		/*UseEnumCarsNames.useEnumCars();*/
 		/*UseClassInClass.getClassInClass();*/
 		/*UseHashSet.usehashSet();*/
-		UseTreeSet.useTreeSet();
+		/*UseTreeSet.useTreeSet();*/
+		UseLinkedList.useTreeSet();
 	}
 
 }
