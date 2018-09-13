@@ -1,6 +1,7 @@
 package main;
 
-import usehashset.UseHashSet;
+
+import usingtreeset.UseTreeSet;
 
 public class ApplicatioMain {
 
@@ -9,7 +10,8 @@ public class ApplicatioMain {
 		/*UseRandom.useRandom();*/
 		/*UseEnumCarsNames.useEnumCars();*/
 		/*UseClassInClass.getClassInClass();*/
-		UseHashSet.usehashSet();
+		/*UseHashSet.usehashSet();*/
+		UseTreeSet.useTreeSet();
 	}
 
 }
