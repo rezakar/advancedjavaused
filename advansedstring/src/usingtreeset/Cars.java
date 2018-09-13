@@ -46,7 +46,7 @@ public class Cars implements Comparable<Cars>{
 
 
 	public String toString() {
-		return"carname: "+ this.carName+"  " + "car color: " + this.carColor;
+		return"car name: "+ this.carName+"  " + "car color: " + this.carColor;
 	}
 	
 

@@ -21,9 +21,6 @@ public class UseTreeSet {
 			}
 			System.out.println(treeset.size());
 			System.out.println(treeset);
-
-		/*for (Cars cars : treeset) {
-			System.out.println(cars.getCarColor() + " "+ cars.getCarName());*/
 			
 		}
 		
