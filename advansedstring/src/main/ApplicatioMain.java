@@ -1,6 +1,8 @@
 package main;
 
-import caculator.Calculator;
+
+
+import uselinkedlist.UseLinkedList;
 
 public class ApplicatioMain {
 
@@ -11,9 +13,10 @@ public class ApplicatioMain {
 		/*UseClassInClass.getClassInClass();*/
 		/*UseHashSet.usehashSet();*/
 		/*UseTreeSet.useTreeSet();*/
-		/*UseLinkedList.useTreeSet();*/
+		UseLinkedList.useTreeSet();
+		/*Calculator.getNumber();*/
+		/*UsingCourseCollection.courseCollection();*/
 		
-		Calculator.getNumber();
 	}
 
 }
